@@ -27,7 +27,7 @@ AutoLookDownCamera := true
 AutoLookDelay := 200
 
 ; Set to true to automatically blur the camera
-AutoBlurCamera := true
+AutoBlurCamera := false
 AutoBlurDelay := 50
 
 ; How long to wait after fishing before restarting
@@ -51,7 +51,7 @@ ShakeMode := "Navigation"
 FishBarColorTolerance := 0
 
 ; Seconds for click shake to be considered failed
-ClickShakeFailsafe := 20
+ClickShakeFailsafe := 15
 ; Color range to scan for "shake" text
 ClickShakeColorTolerance := 1
 ; Delay between each scan in miliseconds
